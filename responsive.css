@@ -5,6 +5,9 @@
         align-items: center;
         justify-content: space-around;
     }
+    nav img {
+        padding-bottom: 15px;
+    }
     nav {
         flex-direction: column;
     }
@@ -23,11 +26,26 @@
         padding: 0;
     }
 
+    table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    th, td {
+      min-width: 100px; /* Adjust as needed */
+      white-space: nowrap;
+    }
+
     .our-team ul {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
+    .our-team ul li img {
+        width: 200px;
+        height: 200px;
+        padding-bottom: 0.3rem;
+    }
     .motivation ul {
         display: flex;
         flex-direction: column;
@@ -45,3 +63,5 @@
         margin-bottom: 50px;
     }
 }
+
+
