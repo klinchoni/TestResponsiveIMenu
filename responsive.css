@@ -1,74 +1,31 @@
 @media (max-width: 767px) {
-
-    body {
-        font-size: 14px;
-    }
-
-    .header,
-    .offer,
-    .our-team,
-    .motivation,
-    .blog-news,
-    footer {
-        width: 100%;
-        padding: 10px;
-    }
-
-    header nav{
-        flex-direction: column;
-        align-items: unset;
-    }
-
-    .blog-news ul{
-        flex-direction: column;
-    }
-
-    .blog-news ul .news {
-        list-style: none outside;
+    header {
         display: flex;
-        text-align: center;
-        flex: 0 0 35%;
-        box-shadow: 0 0.3rem 1rem 0.3rem rgba(0, 0, 0, 0.3);
-        margin-top: 10px;
-    }
-
-    .motivation ul{
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
-    
-    .img img {
-        max-width: 100%;
-        height: auto;
-    }
-}
 
-@media (min-width:768px) {
-    
-    body {
-        font-size: 18px;
-    }
-    
-    .header,
-    .offer,
-    .our-team,
-    .motivation,
-    .blog-news,
-    footer {
+    header nav {                                  
+        display: flex;
+        width: 70%;
         margin: 0 auto;
-        padding: 30px;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .blog-news ul .news {
-        list-style: none outside;
+    nav ul {
         display: flex;
-        text-align: center;
-        flex: 0 0 35%;
-        box-shadow: 0 0.3rem 1rem 0.3rem rgba(0, 0, 0, 0.3);
-        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
-    
-    .img img {
-        max-width: 100%;
-        height: auto;
+
+    nav li {
+        padding-bottom: 5px;
+    }
+
+    .header {
+        padding: 0;
     }
 }
